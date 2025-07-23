@@ -1,4 +1,14 @@
+@layer base {
+  html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+}
 
+   @tailwind base;
+   @tailwind components;
+   @tailwind utilities;
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -53,6 +63,24 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+background-image {
+  background-size: cover;
+  background-position: center;
+  margin-left: 2em;
+  margin-right: 2em;
+  width: 8em;
+  height: 8em;
+  border-radius: 50%;
+  
+}
+
+.Typography{
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: #ffffff;
+  margin: 0.5em 0;
 }
 
 @media (prefers-color-scheme: light) {
