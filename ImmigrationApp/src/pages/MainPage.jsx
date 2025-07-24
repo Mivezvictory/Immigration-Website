@@ -12,7 +12,7 @@ export default function MainPage() {
       />
       <div className="hero__content">
         <h1>Welcome your Family to Canada with Confidence</h1>
-        <p>See how we can help you navigate the immigration process.</p>
+        <p>See how we can help you navigate the immigration process and more.</p>
         <button>Learn More</button>
       </div>
     </section>

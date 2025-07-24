@@ -25,7 +25,7 @@ export default function AppBarComponent() {
     <AppBar sx={appBarStyles} elevation={0}>
         <Toolbar className="flex justify-between">  {/* Tailwind flex container with space between items */}
             <Typography variant="h6" component="div" sx={{ flexGrow: 1, color: '#000' }}>
-            Omal Remitance
+            Omal Remittance
             </Typography>
             <Box>
             <Button sx={appBarButtonStyles}>Information</Button>
