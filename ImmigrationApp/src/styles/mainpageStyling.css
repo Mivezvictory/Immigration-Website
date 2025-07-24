@@ -1,0 +1,16 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+.hero__img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* crop/scale like GEICO does */
+}
+.hero__content {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: white;
+}
