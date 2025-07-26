@@ -6,7 +6,10 @@ import AppBarComponent from './components/AppBar';
 import SlideshowBackground from './components/SlideshowBackground';
 import MainPage from './pages/MainPage';
 import ContactSection from './components/contactSection';
+import MainContentPage from './pages/MainContentPage';
 import { ThemeProvider } from '@mui/material/styles';
+import SocialFooter from './components/SocialFooter';
+import InfoSections from './components/InfoSection';
 import theme from './constants/styles'; // Assuming you have a theme.js file for MUI them
 import { Box } from '@mui/material';
 function App() {
@@ -21,8 +24,9 @@ function App() {
         </SlideshowBackground>
       </Box> */}
       <MainPage />
+      <InfoSections />
      <ContactSection />
-      
+      <SocialFooter />
       {/* <div className="relative z-10 w-full px-6">
           <Hero />
           <ContactSection />

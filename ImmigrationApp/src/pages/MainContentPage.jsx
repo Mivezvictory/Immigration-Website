@@ -2,12 +2,11 @@ import { Box, Typography } from "@mui/material";
 import '../index.css'; // Ensure your CSS is imported for styles
 
 export const mainBoxStyle = {
-  backgroundColor: '#ffffff', // Light gray background
+  backgroundColor: '#ffffff', // Dark background
+  padding: '2rem',
   borderRadius: '8px',
   center: 'center',
   margin: 'auto',
-  marginTop: '2rem',
-  marginBottom: '2rem',
 };
 export const titleStyle = {
   marginBottom: '1rem',
@@ -19,13 +18,17 @@ export const titleStyle = {
 export const sectionStyles = {
   marginTop: '0.5rem',
   color: '#333', // Dark text color for better readability
+  fontStyle: 'Open Sans, sans-serif',
+  fontSize: '1rem',
+  lineHeight: '1.5',
+  textTransform: 'none',
 }
 
-const ContactSection = () => {
+const MainContentPage = () => {
   return (
     <Box width="50%" sx={mainBoxStyle}>
       <Typography variant="h4" component="h2" sx={titleStyle}>
-        Contact Us
+        Visa Assistance
       </Typography>
       <Typography variant="body1" sx={sectionStyles}>
         If you have any questions or need assistance, please reach out to us at:
@@ -51,4 +54,4 @@ const ContactSection = () => {
   );
 };
 
-export default ContactSection;
+export default MainContentPage;
